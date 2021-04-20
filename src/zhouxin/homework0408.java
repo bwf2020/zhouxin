@@ -16,7 +16,7 @@ public class homework0408 {
 		int l=0;
 		int h=a.length-1;
 		int m;
-		while(l<=h){
+ 		while(l<=h){
 			m=(l+h)>>1;
 			if(key==a[m]) {
 			System.out.println(key+"在数组"+Arrays.toString(a)+"中的下标为:"+m);
